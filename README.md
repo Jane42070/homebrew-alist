@@ -4,7 +4,8 @@ Homebrew Formula for alist https://github.com/alist-org/alist
 🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.
 
 ## Requierments
-- MacOS 11 or better and Homebrew https://brew.sh/
+- MacOS 13 or better (untested below)
+- Homebrew https://brew.sh/
 
 ## Installation
 1. Install tap: `brew tap traace/alist`
