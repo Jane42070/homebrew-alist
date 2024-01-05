@@ -1,5 +1,6 @@
 # alist-homebrew
-Homebrew Formula for alist - 🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.
+Homebrew Formula for alist https://github.com/alist-org/alist
+🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.
 
 ## Requierments
 - MacOS 11 or better and Homebrew https://brew.sh/
