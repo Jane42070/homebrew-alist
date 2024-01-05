@@ -30,9 +30,8 @@ class Alist < Formula
         Using: #{bin}/alist server --data #{etc}/alist-data
 
       On start, alist will print admin credentials once. Then you can stop it again via: STRG+C
-      Afterwards, you can simply run: brew service start alist
       
-      Then you can access the service via: http://127.0.0.1:5244
+      You can access the running service via: http://127.0.0.1:5244
     EOS
   end
 
