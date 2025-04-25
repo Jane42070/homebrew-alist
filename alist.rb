@@ -1,14 +1,14 @@
 class Alist < Formula
-  version "3.30.0"
+  version "3.44.0"
   homepage "https://github.com/alist-org"
   desc "A file list program that supports multiple storages, powered by Gin and Solidjs"
 
   if Hardware::CPU.arch == :arm64
     url "https://github.com/alist-org/alist/releases/download/v#{version}/alist-darwin-arm64.tar.gz"
-    sha256 "6bf1fe1d7fd80545666269301528d2f382f3b155fd10e56c87bd41a16b291968"
+    sha256 "be363afb2a2bc48267dd7b6dfbca4280fde3d296bdddb994da2410218cfbc936"
   else
     url "https://github.com/alist-org/alist/releases/download/v#{version}/alist-darwin-amd64.tar.gz"
-    sha256 "d54b1e20a50de533459b6a8c3d4e97e30f10e5605fa0d32d03691b90a747bdce"
+    sha256 "d072741af0b9735d2a32351d42f80c63f819577146d359782085591289341464"
   end
 
   def install
